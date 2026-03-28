@@ -1,0 +1,15 @@
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.AssemblyInfoInputs.cache
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.AssemblyInfo.cs
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.csproj.CoreCompileInputs.cache
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.sourcelink.json
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net10.0/ConsoleApp11
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net10.0/ConsoleApp11.deps.json
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net10.0/ConsoleApp11.runtimeconfig.json
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net10.0/ConsoleApp11.dll
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/bin/Debug/net10.0/ConsoleApp11.pdb
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.dll
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/refint/ConsoleApp11.dll
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.pdb
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ConsoleApp11.genruntimeconfig.cache
+/Users/nastya/RiderProjects/ConsoleApp11/ConsoleApp11/obj/Debug/net10.0/ref/ConsoleApp11.dll

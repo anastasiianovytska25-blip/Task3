@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿var file = new FileResource("report.txt");
+var network = new NetworkResource("api.company.local");
 
-Console.WriteLine("Hello, World!");
+var manager = new ResourceManager<Resource>();
+manager.Add(file);
+manager.Add(network);
+manager.OpenAll();
+
+using (var res  = new FileResource("temp.log"))
+{
+    res .Open();
+}
+manager.CloseAll();

@@ -1,5 +1,5 @@
 
-public class NetworkResource
+public class NetworkResource:Resource, IDisposable
 {
     public NetworkResource(string name) : base(name)
     {

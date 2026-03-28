@@ -1,13 +1,16 @@
-﻿var file = new FileResource("report.txt");
-var network = new NetworkResource("api.company.local");
+﻿Point p1 = new Point { X = 1, Y = 2 }; // робить копію
+Point p2 = p1;
+p2.X = 6;
+p1.Print();
+p2.Print();
 
-var manager = new ResourceManager<Resource>();
-manager.Add(file);
-manager.Add(network);
-manager.OpenAll();
+Console.WriteLine();
 
-using (var res  = new FileResource("temp.log"))
-{
-    res .Open();
-}
-manager.CloseAll();
+PointRef r1 = new PointRef { X = 1, Y = 2 }; // копіює посилання
+PointRef r2 = r1;
+r2.X = 7;
+r1.Print();
+r2.Print();
+Console.WriteLine();
+
+BoxingTester.Test();

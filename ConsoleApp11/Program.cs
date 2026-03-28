@@ -1,16 +1,14 @@
-﻿Point p1 = new Point { X = 1, Y = 2 }; // робить копію
-Point p2 = p1;
-p2.X = 6;
-p1.Print();
-p2.Print();
-
-Console.WriteLine();
-
-PointRef r1 = new PointRef { X = 1, Y = 2 }; // копіює посилання
-PointRef r2 = r1;
-r2.X = 7;
-r1.Print();
-r2.Print();
-Console.WriteLine();
-
-BoxingTester.Test();
+﻿var container = new DataContainer<DataItem>();
+for (int i = 0; i < 10000; i++)
+{
+    var item = new DataItem
+    {
+        Id = $"item-{i}",
+        Payload = new byte[1024]
+    };
+    container.AddItem(item);
+}
+Console.WriteLine($"Total size before GC: {container.GetTotalSize()} bytes");
+GC.Collect();
+Console.WriteLine("GC.Collect() was called.");
+Console.WriteLine($"Total size after GC: {container.GetTotalSize()} bytes"); // у всіх обʼєктів є посиланя тому GC немає чого видаляти 
